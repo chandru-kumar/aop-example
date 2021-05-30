@@ -1,12 +1,12 @@
 package com.annotations;
 
 import static java.lang.annotation.ElementType.METHOD;
-import static java.lang.annotation.RetentionPolicy.SOURCE;
+import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.Target;
 
-@Retention(SOURCE)
+@Retention(RUNTIME)
 @Target(METHOD)
 public @interface Sysout {
 
