@@ -7,7 +7,6 @@ import com.annotations.Sysout;
 public class AOPTest {
 	
 	@Test
-	@Sysout
 	void test() {
 		annotationTest();
 	}
