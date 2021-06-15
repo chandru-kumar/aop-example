@@ -2,7 +2,7 @@ package com.aop.example;
 
 import com.annotations.Sysout;
 
-public class Test {
+public class AOP {
   public static void main(String[] args) {
     testAOP();
   }
